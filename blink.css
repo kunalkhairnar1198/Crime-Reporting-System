@@ -1,0 +1,14 @@
+{
+color: green;
+}
+.a1, .a2{
+animation:blinking 1.5s infinite;
+font-size: 50px;
+}
+@keyframes blinking{
+40%{   color: orange;   }
+47%{   color: #000; }
+102%{   color: transparent; }
+800%{   color:transparent; }
+100%{  color: #000;   }
+}
